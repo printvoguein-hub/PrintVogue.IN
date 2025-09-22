@@ -284,6 +284,11 @@ Please confirm availability and provide further details.`;
               ))}
           </div>
         </div>
+        
+        <div className="margin-top: 20px; text-align: center;">
+          <p>We'll send you tracking information once your order ships.</p>
+          <p>For any questions, contact us at printvogue.in@gmail.com or +91 98765 43210</p>
+        </div>
       </div>
     </div>
   );
