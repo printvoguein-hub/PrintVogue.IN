@@ -217,10 +217,10 @@ const StoreLocator: React.FC = () => {
                 Call Us: +91 98765 43210
               </a>
               <a
-                href="mailto:hello@printvogue.com"
+                href="mailto:printvogue.in@gmail.com"
                 className="bg-white/20 text-white font-semibold py-3 px-6 rounded-full hover:bg-white/30 transition-colors duration-300 transform hover:scale-105"
               >
-                Email: hello@printvogue.com
+                Email: printvogue.in@gmail.com
               </a>
             </div>
           </div>

@@ -33,12 +33,15 @@ const Footer: React.FC = () => {
                 href="https://instagram.com/printvogue" 
                 target="_blank" 
                 rel="noopener noreferrer"
+                href="https://www.instagram.com/printvogue.in/" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-pink-500 transition-all duration-300 transform hover:scale-125 hover:-rotate-12"
               >
                 <Instagram className="w-6 h-6" />
               </a>
               <a 
-                href="https://facebook.com/printvogue" 
+                href="https://www.facebook.com/profile.php?id=61580900657704" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-500 transition-all duration-300 transform hover:scale-125 hover:rotate-12"
@@ -65,6 +68,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold group-hover:text-amber-400 transition-colors duration-300">Support</h4>
             <ul className="space-y-2">
               <li><a href="mailto:hello@printvogue.com" className="text-gray-300 hover:text-amber-500 transition-all duration-300 hover:translate-x-2 inline-block">Contact Us</a></li>
+              <li><a href="mailto:printvogue.in@gmail.com" className="text-gray-300 hover:text-amber-500 transition-all duration-300 hover:translate-x-2 inline-block">Contact Us</a></li>
               <li><a href="#" className="text-gray-300 hover:text-amber-500 transition-all duration-300 hover:translate-x-2 inline-block">Terms & Privacy</a></li>
               <li><a href="tel:+919876543210" className="text-gray-300 hover:text-amber-500 transition-all duration-300 hover:translate-x-2 inline-block">Call Support</a></li>
               <li><a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-500 transition-all duration-300 hover:translate-x-2 inline-block">WhatsApp Help</a></li>
@@ -85,7 +89,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3 group-hover:translate-x-1 transition-transform duration-300">
                 <Mail className="w-4 h-4 text-amber-500 flex-shrink-0" />
-                <a href="mailto:hello@printvogue.com" className="text-gray-300 text-sm hover:text-amber-400 transition-colors duration-300">hello@printvogue.com</a>
+                <a href="mailto:printvogue.in@gmail.com" className="text-gray-300 text-sm hover:text-amber-400 transition-colors duration-300">printvogue.in@gmail.com</a>
               </div>
             </div>
           </div>

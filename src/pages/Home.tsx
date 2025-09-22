@@ -38,7 +38,7 @@ const Home: React.FC = () => {
 
   const testimonials = [
     {
-      name: "Priya Sharma",
+      name: "Allen Samuel",
       rating: 5,
       text: "Absolutely love the quality and unique designs! The custom print service exceeded my expectations.",
       location: "Mumbai",
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
       avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
     },
     {
-      name: "Arjun Patel",
+      name: "Emanuel Manu",
       rating: 5,
       text: "Premium quality fabrics and stunning prints. PrintVogue has become my go-to for fashion.",
       location: "Bangalore",
@@ -54,12 +54,20 @@ const Home: React.FC = () => {
       avatar: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100"
     },
     {
-      name: "Sneha Reddy",
+      name: "Prinstone Antony",
       rating: 5,
       text: "The attention to detail is incredible. Every piece feels like luxury fashion.",
       location: "Hyderabad",
       age: "24",
       avatar: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=100"
+    },
+    {
+      name: "Niggatron",
+      rating: 5,
+      text: "Outstanding quality and unique designs. PrintVogue delivers exactly what they promise.",
+      location: "Chennai",
+      age: "26",
+      avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100"
     }
   ];
 
@@ -173,21 +181,6 @@ const Home: React.FC = () => {
           </div>
 
           {/* Social proof */}
-          <div className="flex items-center justify-center space-x-8 mt-12 opacity-0 animate-fadeInUp"
-               style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-            <div className="flex items-center space-x-2 text-gray-300">
-              <Users className="w-5 h-5 text-amber-400" />
-              <span className="text-sm">10K+ Happy Customers</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-300">
-              <Heart className="w-5 h-5 text-red-400 animate-pulse" />
-              <span className="text-sm">Loved by Gen Z</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-300">
-              <Star className="w-5 h-5 text-amber-400" />
-              <span className="text-sm">4.9/5 Rating</span>
-            </div>
-          </div>
         </div>
 
         {/* Scroll indicator */}
@@ -204,7 +197,7 @@ const Home: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Shop by Category</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Explore our curated collections designed for every vibe and moment ✨
+              Explore our curated collections designed for every vibe and moment
             </p>
           </div>
 
@@ -239,7 +232,7 @@ const Home: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Featured Collection</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Handpicked designs that define contemporary luxury fashion 🔥
+              Handpicked designs that define contemporary luxury fashion
             </p>
           </div>
 
@@ -283,7 +276,7 @@ const Home: React.FC = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Transform your vision into wearable art with our bespoke printing service 🎨
+            Transform your vision into wearable art with our bespoke printing service
           </p>
           <Link
             to="/custom-print"
@@ -301,7 +294,7 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">What Our Customers Say</h2>
-            <p className="text-xl text-gray-600">Trusted by fashion enthusiasts across India 💫</p>
+            <p className="text-xl text-gray-600">Trusted by fashion enthusiasts across India</p>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -355,10 +348,10 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-              Stay in Style 📧
+              Stay in Style
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Subscribe for exclusive drops, early access to collections, and style inspo ✨
+              Subscribe for exclusive drops, early access to collections, and style inspo
             </p>
             
             <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
@@ -380,7 +373,7 @@ const Home: React.FC = () => {
             
             <div className="flex items-center justify-center space-x-6 mt-8">
               <a 
-                href="https://wa.me/919876543210" 
+                href="https://wa.me/919876543210"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-600 hover:text-green-500 transition-all duration-300 transform hover:scale-110"
@@ -389,7 +382,7 @@ const Home: React.FC = () => {
                 <span>WhatsApp</span>
               </a>
               <a 
-                href="https://instagram.com/printvogue" 
+                href="https://www.instagram.com/printvogue.in/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-600 hover:text-pink-500 transition-all duration-300 transform hover:scale-110"
@@ -398,7 +391,7 @@ const Home: React.FC = () => {
                 <span>Instagram</span>
               </a>
               <a 
-                href="https://facebook.com/printvogue" 
+                href="https://www.facebook.com/profile.php?id=61580900657704"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-600 hover:text-blue-500 transition-all duration-300 transform hover:scale-110"
